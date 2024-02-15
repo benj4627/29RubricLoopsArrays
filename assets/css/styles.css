@@ -67,9 +67,9 @@ form {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
-    background: rgba(0, 0, 0, 0.158);
+    background: rgba(0, 0, 0, 0.26);
     position: sticky;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.089);
 }
@@ -91,7 +91,6 @@ header a:hover {
     color: black; 
     font-size: 1.7rem;
     border-bottom: 4px solid black;
-    
 }
 
 .logo h1 {
@@ -100,4 +99,68 @@ header a:hover {
     max-width: 10ch;
     line-height: 3rem;
     margin: 0 2rem;
+}
+
+/* main stlying */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+}
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 2rem;
+    background: linear-gradient( rgba(0, 0, 0, 0.178), rgba(0, 0, 0, 0.856));
+    border-radius: 30px;
+}
+
+main h2 {
+    font-size: 2rem;
+    max-width: 30ch;
+    text-align: center;
+    line-height: 1.5;
+}
+
+main p {
+    font-size: 1.2rem;
+    max-width: 31ch;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.italic {
+    font-style: italic; 
+    font-weight: 100;
+    font-size: .9rem;
+}
+
+/* input and button styling */
+input {
+    padding: .5rem 1rem;
+    border: unset;
+    background-color: #eeee;
+    border-radius: 15px;
+    margin-bottom: 2rem; 
+}
+
+button {
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: 40px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-family: "Moul", serif;
+    transition: .3s ease-in-out;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transform: scale(110%);
 }

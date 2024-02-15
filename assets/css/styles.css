@@ -89,7 +89,7 @@ form {
 
 header a:hover {
     color: black; 
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     border-bottom: 4px solid black;
 }
 
@@ -163,4 +163,16 @@ button:hover {
     background-color: white;
     color: black;
     transform: scale(110%);
+}
+
+/* Results styling */
+.results {
+    margin: 1rem;
+}
+
+.results li {
+    list-style-type: none;
+    text-align: center;
+    margin: .5rem;
+    font-family: "Moul", serif;
 }
